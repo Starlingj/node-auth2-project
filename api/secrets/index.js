@@ -7,5 +7,5 @@
   developers cloning this repo won't be able to run the project as is.
  */
 module.exports = {
-
+JWT_SECERT: process.env.JWT_SECERT || 'math24',
 }
